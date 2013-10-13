@@ -31,5 +31,5 @@ class Sintde2 < Sinatra::Base
     erb :index
   end
 
-  run! if app == $0
+  run! if app_file == $0
 end
